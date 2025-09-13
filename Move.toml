@@ -1,0 +1,16 @@
+[package]
+name = "Blockchain-based-Bookmarks-Manager"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x01e1e29b69ec27d2b451d4d68689302d45da59a6c0cb3514ef64fbecd64efcd1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
